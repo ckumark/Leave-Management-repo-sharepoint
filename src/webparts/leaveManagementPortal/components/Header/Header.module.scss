@@ -1,0 +1,29 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.header{
+    .headerTitle{
+        text-align: center;
+        height: 50px;
+    
+        .title{
+            width: 70%;
+            float: left;
+            height: 100%;
+        }
+    
+        .signInInfo{
+            width:30%;
+            float: right;
+            height: 100%;
+        }
+    }
+
+    .navList{
+        clear:both;
+
+        .navItem{
+            display: inline;
+            top:35px;
+        }
+    }
+}

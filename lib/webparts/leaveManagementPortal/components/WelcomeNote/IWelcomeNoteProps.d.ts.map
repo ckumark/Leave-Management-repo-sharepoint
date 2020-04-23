@@ -1,0 +1,1 @@
+{"version":3,"file":"IWelcomeNoteProps.d.ts","sourceRoot":"","sources":["../../../../../src/webparts/leaveManagementPortal/components/WelcomeNote/IWelcomeNoteProps.ts"],"names":[],"mappings":"AAAA,OAAO,EACH,eAAe,EAChB,MAAM,4BAA4B,CAAC;AACtC,OAAO,WAAW,MAAM,qBAAqB,CAAC;AAE9C,MAAM,WAAW,iBAAiB;IAC9B,MAAM,EAAC,MAAM,CAAC;IACd,OAAO,EAAC,eAAe,CAAC;IACxB,IAAI,EAAC,WAAW,CAAC;CACpB"}
