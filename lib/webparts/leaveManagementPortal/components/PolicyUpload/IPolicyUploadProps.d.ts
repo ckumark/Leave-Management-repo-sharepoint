@@ -4,5 +4,6 @@ export interface IPolicyUploadProps {
     digest: string;
     context: IWebPartContext;
     setMessage: (message: string, actionResponseState: InfoState) => void;
+    IsAdmin: () => boolean;
 }
 //# sourceMappingURL=IPolicyUploadProps.d.ts.map

@@ -109,7 +109,8 @@ export default class LeaveManagementPortal extends React.Component<ILeaveManagem
           <PolicyUpload
             digest={this.state.digest}
             context={this.state.context}
-            setMessage={this.setMessage} />}
+            setMessage={this.setMessage}             
+            IsAdmin={this.IsAdmin} />}
 
         {this.state.currentState === PageState.PendingApprovals && this.state.IsUserSelected &&
           <PendingApprovals
