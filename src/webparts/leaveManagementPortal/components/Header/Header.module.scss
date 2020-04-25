@@ -26,4 +26,150 @@
             top:35px;
         }
     }
-}
+
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+        width: 95%;
+      }
+      
+      .navbar a {
+        float: left;
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      
+      
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: red;
+      }
+      
+      body {
+        font-family: "Lato", sans-serif;
+      }
+      
+      /* Fixed sidenav, full height */
+      .sidenav {
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+      
+      /* Style the sidenav links and the dropdown button */
+      .sidenav a, .dropdownBtn {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #818181;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+      }
+      
+      /* On mouse-over */
+      .sidenav a:hover, .dropdownBtn:hover {
+        color: #f1f1f1;
+      } 
+      
+      }     
+      
+      .tableUser{
+        .hovertable {
+          font-family: verdana,arial,sans-serif;
+          font-size:11px;
+          color:#333333;
+          border-width: 1px;
+          border-color: #999999;
+          border-collapse: collapse;
+          width:100%;
+        }
+        .hovertable th {
+          background-color:#c3dde0;
+          border-width: 1px;
+          padding: 8px;
+          border-style: solid;
+          border-color: #a9c6c9;
+        }
+        .hovertable tr {
+          background-color:#d4e3e5;
+        }
+        .hovertable td {
+          border-width: 1px;
+          padding: 8px;
+          border-style: solid;
+          border-color: #a9c6c9;
+          text-align: center;
+        }
+      }
+
+      .tableUserHistory{
+        .hovertable {
+          font-family: verdana,arial,sans-serif;
+          font-size:11px;
+          color:#333333;
+          border-width: 1px;
+          border-color: #999999;
+          border-collapse: collapse;
+          width:100%;
+        }
+        .hovertable th {
+          background-color:#c3dde0;
+          border-width: 1px;
+          padding: 8px;
+          border-style: solid;
+          border-color: #a9c6c9;
+        }
+        .hovertable tr {
+          background-color:#d4e3e5;
+        }
+        .hovertable td {
+          border-width: 1px;
+          padding: 8px;
+          border-style: solid;
+          border-color: #a9c6c9;
+          text-align: center;
+        }
+      }
+
+      .tablePendingApproval{
+        .hovertable {
+          font-family: verdana,arial,sans-serif;
+          font-size:11px;
+          color:#333333;
+          border-width: 1px;
+          border-color: #999999;
+          border-collapse: collapse;
+          width:100%;
+        }
+        .hovertable th {
+          background-color:#c3dde0;
+          border-width: 1px;
+          padding: 8px;
+          border-style: solid;
+          border-color: #a9c6c9;
+        }
+        .hovertable tr {
+          background-color:#d4e3e5;
+        }
+        .hovertable td {
+          border-width: 1px;
+          padding: 8px;
+          border-style: solid;
+          border-color: #a9c6c9;
+          text-align: center;
+        }
+      }

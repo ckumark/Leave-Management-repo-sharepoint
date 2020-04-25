@@ -22,7 +22,7 @@ export default class Header extends React.Component<IHeaderProps, {}> {
                     </div>
                     
                     <div>
-                        <ul className={styles.navList}>
+                        <ul className={styles.navbar}>
                             {this.props.IsUserSelected && <li className={styles.navItem}><a onClick={(event) => {
                                 this.changePage(PageState.WelcomePage);
                             }}>Home</a></li>}
