@@ -1,5 +1,5 @@
-import * as React from 'react';
-import { ILeaveApplicationProps } from './ILeaveApplicationProps';
+import * as React from "react";
+import { ILeaveApplicationProps } from "./ILeaveApplicationProps";
 export default class LeaveApplication extends React.Component<ILeaveApplicationProps, {}> {
     leaveDateRef: React.RefObject<HTMLInputElement>;
     approverId: React.RefObject<HTMLSelectElement>;

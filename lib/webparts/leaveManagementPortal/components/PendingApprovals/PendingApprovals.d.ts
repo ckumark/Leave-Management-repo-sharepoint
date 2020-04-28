@@ -1,6 +1,6 @@
-import * as React from 'react';
-import { IPendingApprovalsProps } from './IPendingApprovalsProps';
-import LeaveRequestModel from '../Global/LeaveRequestModel';
+import * as React from "react";
+import { IPendingApprovalsProps } from "./IPendingApprovalsProps";
+import LeaveRequestModel from "../Global/LeaveRequestModel";
 export default class PendingApprovals extends React.Component<IPendingApprovalsProps, {}> {
     pendingApprovals: LeaveRequestModel[];
     constructor(props: any);

@@ -1,6 +1,6 @@
-import { Version } from '@microsoft/sp-core-library';
-import { IPropertyPaneConfiguration } from '@microsoft/sp-property-pane';
-import { BaseClientSideWebPart, IWebPartContext } from '@microsoft/sp-webpart-base';
+import { Version } from "@microsoft/sp-core-library";
+import { IPropertyPaneConfiguration } from "@microsoft/sp-property-pane";
+import { BaseClientSideWebPart, IWebPartContext } from "@microsoft/sp-webpart-base";
 export interface ILeaveManagementPortalWebPartProps {
     description: string;
 }

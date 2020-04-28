@@ -1,5 +1,5 @@
-export interface IApprovalRequestProps{
-    EmployeeName:string;
-    ApplicationDate:string;
-    Response:string;
+export interface IApprovalRequestProps {
+  EmployeeName: string;
+  ApplicationDate: string;
+  Response: string;
 }

@@ -1,6 +1,6 @@
-import * as React from 'react';
-import { ILeavesHistoryProps } from './ILeavesHistoryProps';
-import LeaveRequestModel from '../Global/LeaveRequestModel';
+import * as React from "react";
+import { ILeavesHistoryProps } from "./ILeavesHistoryProps";
+import LeaveRequestModel from "../Global/LeaveRequestModel";
 export default class LeavesHistory extends React.Component<ILeavesHistoryProps, {}> {
     leaveRequests: LeaveRequestModel[];
     /**

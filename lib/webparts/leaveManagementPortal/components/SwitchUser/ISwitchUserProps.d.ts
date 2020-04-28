@@ -1,6 +1,6 @@
-import { IWebPartContext } from '@microsoft/sp-webpart-base';
-import UserDetails from '../Global/UserModel';
-import { InfoState } from '../Global/InfoState';
+import { IWebPartContext } from "@microsoft/sp-webpart-base";
+import UserDetails from "../Global/UserModel";
+import { InfoState } from "../Global/InfoState";
 export interface ISwitchUserProps {
     digest: string;
     context: IWebPartContext;

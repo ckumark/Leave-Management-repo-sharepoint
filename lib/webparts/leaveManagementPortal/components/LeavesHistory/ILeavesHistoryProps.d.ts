@@ -1,5 +1,5 @@
-import { IWebPartContext } from '@microsoft/sp-webpart-base';
-import { InfoState } from '../Global/InfoState';
+import { IWebPartContext } from "@microsoft/sp-webpart-base";
+import { InfoState } from "../Global/InfoState";
 export interface ILeavesHistoryProps {
     digest: string;
     context: IWebPartContext;

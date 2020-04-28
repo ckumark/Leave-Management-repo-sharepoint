@@ -1,4 +1,4 @@
 export interface ILeaveManagementPortalProps {
-    description: string;
+  description: string;
 }
 //# sourceMappingURL=ILeaveManagementPortalProps.d.ts.map

@@ -1,5 +1,5 @@
 declare const styles: {
-    mobilePreviewRotateIcon: string;
+  mobilePreviewRotateIcon: string;
 };
 export default styles;
 //# sourceMappingURL=MobilePreviewRotate.module.scss.d.ts.map

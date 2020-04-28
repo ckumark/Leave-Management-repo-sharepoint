@@ -1,5 +1,5 @@
-import * as React from 'react';
-import { IPolicyUploadProps } from './IPolicyUploadProps';
+import * as React from "react";
+import { IPolicyUploadProps } from "./IPolicyUploadProps";
 export default class PolicyUpload extends React.Component<IPolicyUploadProps, {}> {
     /**
      *

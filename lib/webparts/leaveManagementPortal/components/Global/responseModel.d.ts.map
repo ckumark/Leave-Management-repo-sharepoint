@@ -1,1 +1,1 @@
-{"version":3,"file":"ResponseModel.d.ts","sourceRoot":"","sources":["../../../../../src/webparts/leaveManagementPortal/components/Global/ResponseModel.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,OAAO,OAAO,aAAa;IACvB,OAAO,EAAC,MAAM,CAAC;IACf,aAAa,EAAC,OAAO,CAAC;CAChC"}
+{"version":3,"file":"ResponseModel.d.ts","sourceRoot":"","sources":["../../../../../src/webparts/leaveManagementPortal/components/Global/ResponseModel.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,OAAO,OAAO,aAAa;IACzB,OAAO,EAAE,MAAM,CAAC;IAChB,aAAa,EAAE,OAAO,CAAC;CAC/B"}

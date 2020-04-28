@@ -1,18 +1,21 @@
-import * as React from 'react';
+import * as React from "react";
 export interface IErrorDialogProps {
-    title?: string;
-    subText?: string;
+  title?: string;
+  subText?: string;
 }
 export interface IErrorDialogState {
-    showDialog: boolean;
+  showDialog: boolean;
 }
 /**
  * Error dialog for the workbench.
  */
-export default class ErrorDialog extends React.Component<IErrorDialogProps, IErrorDialogState> {
-    constructor(props: IErrorDialogProps);
-    render(): React.ReactElement<IErrorDialogProps>;
-    open(): void;
-    private _close;
+export default class ErrorDialog extends React.Component<
+  IErrorDialogProps,
+  IErrorDialogState
+> {
+  constructor(props: IErrorDialogProps);
+  render(): React.ReactElement<IErrorDialogProps>;
+  open(): void;
+  private _close;
 }
 //# sourceMappingURL=ErrorDialog.d.ts.map

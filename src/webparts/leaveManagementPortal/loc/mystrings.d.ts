@@ -4,7 +4,7 @@ declare interface ILeaveManagementPortalWebPartStrings {
   DescriptionFieldLabel: string;
 }
 
-declare module 'LeaveManagementPortalWebPartStrings' {
+declare module "LeaveManagementPortalWebPartStrings" {
   const strings: ILeaveManagementPortalWebPartStrings;
   export = strings;
 }
