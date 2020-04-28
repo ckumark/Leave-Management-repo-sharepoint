@@ -2,7 +2,6 @@ import * as React from "react";
 import * as ReactDom from "react-dom";
 import { Version } from "@microsoft/sp-core-library";
 import { IDigestCache, DigestCache } from "@microsoft/sp-http";
-import * as loader from "@microsoft/sp-loader";
 import {
   IPropertyPaneConfiguration,
   PropertyPaneTextField,
@@ -14,7 +13,6 @@ import {
 import * as strings from "LeaveManagementPortalWebPartStrings";
 import LeaveManagementPortal from "./components/LeaveManagementPortal/LeaveManagementPortal";
 import { ILeaveManagementPortalProps } from "./components/LeaveManagementPortal/ILeaveManagementPortalProps";
-import { PageState } from "./components/Global/PageStateEnum";
 
 export interface ILeaveManagementPortalWebPartProps {
   description: string;
@@ -25,7 +23,7 @@ export default class LeaveManagementPortalWebPart extends BaseClientSideWebPart<
 > {
   public digest: string = "";
 
-  public constructor(context: IWebPartContext) {
+  public constructor() {
     super();
 
     // loader.SPComponentLoader.loadCss("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
@@ -45,20 +43,18 @@ export default class LeaveManagementPortalWebPart extends BaseClientSideWebPart<
   }
 
   protected onInit(): Promise<void> {
-    return new Promise<void>(
-      (resolve: () => void, reject: (error: any) => void): void => {
-        const digestCache: IDigestCache = this.context.serviceScope.consume(
-          DigestCache.serviceKey
-        );
-        digestCache
-          .fetchDigest(this.context.pageContext.web.serverRelativeUrl)
-          .then((digest: string): void => {
-            // use the digest here
-            this.digest = digest;
-            resolve();
-          });
-      }
-    );
+    return new Promise<void>((resolve: () => void): void => {
+      const digestCache: IDigestCache = this.context.serviceScope.consume(
+        DigestCache.serviceKey
+      );
+      digestCache
+        .fetchDigest(this.context.pageContext.web.serverRelativeUrl)
+        .then((digest: string): void => {
+          // use the digest here
+          this.digest = digest;
+          resolve();
+        });
+    });
   }
 
   protected onDispose(): void {
